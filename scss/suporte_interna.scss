@@ -1,0 +1,267 @@
+.suporte_interna {
+    background-image: url(../images/suporte_interna/suporte_interna.jpg);
+    svg {
+        margin-bottom: 36px;
+    }
+}
+
+.descricao_page {
+    padding-bottom: 36px;
+    padding-top: 30px;
+    .padding_desc {
+        padding: 0 75px;
+    }
+    h2 {
+        font-size: 40px;
+        color: #29aed3;
+        font-weight: 400;
+        margin-bottom: 19px;
+        text-align: center;
+    }
+    p {
+        font-size: 15px;
+        text-align: center;
+        color: #434b52;
+        line-height: 20px;
+        margin: 0;
+    }
+}
+
+.arquivos {
+    padding-top: 55px;
+    padding-bottom: 70px;
+    background: #eeeeee;
+    .arquivo_i {
+        background-position: -2px -42px;
+	min-width: 44px;
+    height: 52px;
+    margin-right: 8px;
+    }
+    .down_i {
+        background-position:-47px -30px;
+	min-width: 9px;
+    height: 13px;
+    margin-left: 11px;
+    }
+    h2 {
+        font-size: 30px;
+        color: #053870;
+        font-weight: 400;
+        margin-bottom: 34px;
+        text-align: center;
+    }
+    h4 {
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        color: #1185c4;
+        font-weight: bold;
+        margin-bottom: 3px;
+    }
+    p {
+        font-size: 14px;
+        color: #7f7f7f;
+        margin: 0;
+    }
+    .col-md-3 {
+        margin-bottom: 13px;
+    }
+}
+
+/* Perguntas e Respostas */
+.duvidas h4 a {
+	color: #1185c4;
+	font-size: 15px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+}
+
+.duvidas h4 {
+    background: transparent;
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 11px 0px;
+}
+
+.panel-body {
+    color: #83849b;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 22px 0px;
+    padding-top: 12px;
+    line-height: 18px;
+    margin-top: 2px;
+    letter-spacing: -0.02em;
+}
+.duvidas{
+    padding-top: 75px;
+    padding-bottom: 78px;
+    
+}
+.conteudoDuvidas{
+    padding: 0 22px;
+    padding-top: 0px;
+}
+a.accordion-toggle[aria-expanded="true"]{
+    .up{
+        background: url(../images/assets/sprite.png);
+        width: 14px;
+	    height: 9px;
+        position: absolute;
+        top: 54%;
+        transform: translate(-50%, -50%);
+        background-position: -56px -60px;
+        right:17px;
+    }
+    .panel-heading {
+        border-bottom: none;
+    }
+}
+a.accordion-toggle[aria-expanded="false"], a.accordion-toggle{
+    .up{
+        background: url(../images/assets/sprite.png);
+        width: 14px;
+        height: 9px;
+        position: absolute;
+        top: 54%;
+        transform: translate(-50%, -50%);
+        background-position: -56px -48px;
+        right: 17px;
+    }
+
+}
+.panel-heading {
+    position: relative;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.duvidas_frequentes {
+    padding-top: 37px;
+    padding-bottom: 50px;
+    h2 {
+        font-size: 30px;
+        color: #053870;
+        font-weight: 400;
+        margin-bottom: 34px;
+        text-align: center;
+    }
+    input {
+        width: 552px;
+        height: 35px;
+        display: flex;
+        align-content: center;
+        padding-left: 20px;
+        font-size: 14px;
+        color: #657d95;
+        background: #e5eef0;
+        border: 1px solid #dde7ea;
+        margin-bottom: 11px;
+    }
+    button {
+        background-position: -77px -36px;
+	width: 24px;
+    height: 21px;
+    border: none;
+    margin-left: 11px;
+    margin-top: 7px;
+    }
+}
+
+// Wiki 
+
+.conheca_wiki {
+    background-image: url(../images/suporte_interna/wiki.png);
+    background-position: center top;
+    background-blend-mode: multiply;
+    background-color: #1185c4;
+    height: 98px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    h3 {
+        color: #FFF;
+        font-size: 40px;
+        font-weight: 400;
+        margin-right: 26px;
+        margin-bottom: 0;
+    }
+    .saiba_wiki {
+        width: 140px;
+        height: 35px;
+        color: #FFF;
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: 0.05em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #29aed3;
+        text-transform: uppercase;
+    }
+}
+
+// Canais
+
+.canais_suporte {
+    padding-top: 40px;
+    padding-bottom: 55px;
+    h2 {
+        font-size: 30px;
+        color: #053870;
+        font-weight: 400;
+        margin-bottom: 34px;
+        text-align: center;
+    }
+    a {
+        color: #1185c4;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 0.05em;
+    }
+    .phone_i {
+        background-position: -109px -35px;
+        min-width: 24px;
+        height: 24px;
+    }
+    .whats_i {
+        background-position:-139px -36px;
+	min-width: 23px;
+	height: 24px;
+    }
+    .chat_i {
+        background-position:-166px -36px;
+	width: 24px;
+	height: 25px;
+    }
+    i {
+        margin-right: 10px;
+    }
+    .telefone_c {
+        margin-right: 63px;
+        display: flex;
+        align-items: center;
+    }
+    .whats_c {
+        margin-right: 40px;
+        padding-left: 11px;
+        width: 230px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        border: 2px solid #1185c4;
+    }
+    .chat_c {
+        padding-left: 11px;
+        width: 230px;
+        border: 2px solid #1185c4;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        a {
+            text-transform: uppercase;
+        }
+    }
+}

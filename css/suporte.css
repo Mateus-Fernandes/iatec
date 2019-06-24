@@ -1,0 +1,53 @@
+.voce_precisa { padding-top: 27px; padding-bottom: 60px; }
+
+.voce_precisa h2 { color: #29aed3; font-size: 30px; font-weight: 400; line-height: 30px; margin-bottom: 14px; text-align: center; }
+
+.voce_precisa h3 { font-weight: 400; font-size: 15px; color: #434b52; margin-bottom: 34px; text-align: center; }
+
+.voce_precisa .cada_solucao { background: #FFF; box-shadow: 1px 1px 7px 2px #0000001c; }
+
+.voce_precisa .cada_solucao .imagem_solucao { background: #417ec0; position: relative; }
+
+.voce_precisa .cada_solucao .imagem_solucao img { mix-blend-mode: multiply; max-width: 100%; }
+
+.voce_precisa .cada_solucao .titulo_solucao { position: absolute; bottom: 14px; left: 0; z-index: 1; width: 100%; padding-left: 27px; }
+
+.voce_precisa .cada_solucao .titulo_solucao h3 { font-size: 20px; color: #FFF; line-height: 20px; font-weight: normal; margin-bottom: 0; text-align: left; }
+
+.voce_precisa .cada_solucao .titulo_solucao i { margin-right: 13px; }
+
+.voce_precisa .cada_solucao .titulo_solucao i.i_ensino { width: 35px; height: 32px; background-position: -104px 0; }
+
+.voce_precisa .cada_solucao .titulo_solucao i.i_igrejas { width: 32px; height: 32px; background-position: -143px -1px; }
+
+.voce_precisa .cada_solucao .titulo_solucao i.i_lojas { width: 34px; height: 30px; background-position: -177px -2px; }
+
+.voce_precisa .cada_solucao .titulo_solucao i.i_saude { width: 32px; height: 32px; background-position: -213px -1px; }
+
+.voce_precisa .cada_solucao .botao_solucao { position: absolute; bottom: 22px; right: 15px; z-index: 2; }
+
+.voce_precisa .cada_solucao .botao_solucao .i_dropdown { background-position: -86px 0; width: 17px; height: 10px; cursor: pointer; }
+
+.voce_precisa .cada_solucao .botao_solucao .solucao_dropdown { position: absolute; z-index: 4; background: #394149e0; padding-top: 20px; padding-left: 15px; padding-bottom: 15px; display: none; top: 32px; right: -15px; width: 262px; }
+
+.voce_precisa .cada_solucao .botao_solucao .solucao_dropdown .drop_item { margin-bottom: 10px; }
+
+.voce_precisa .cada_solucao .botao_solucao .solucao_dropdown .drop_item h4 { font-size: 12px; font-weight: bold; color: #FFF; text-transform: uppercase; margin-bottom: 0; }
+
+.voce_precisa .cada_solucao .botao_solucao .solucao_dropdown .drop_item .icone_solucao { margin-right: 10px; min-width: 21px; display: flex; justify-content: center; align-items: center; }
+
+.voce_precisa .cada_solucao .botao_solucao .solucao_dropdown .drop_item .s_financeiro { width: 16px; height: 19px; background-position: -248px -1px; }
+
+.voce_precisa .cada_solucao .botao_solucao .solucao_dropdown .drop_item .r_financeiro { width: 20px; height: 19px; background-position: -266px 0; }
+
+.voce_precisa .cada_solucao .botao_solucao .solucao_dropdown .drop_item .seguranca { width: 16px; height: 20px; background-position: -291px 0; }
+
+.voce_precisa .cada_solucao .botao_solucao .solucao_dropdown .drop_item .infraestrutura { width: 11px; height: 20px; background-position: -311px 0; }
+
+.voce_precisa .cada_solucao .botao_solucao .solucao_dropdown .drop_item .conectividades { width: 20px; height: 19px; background-position: -325px -1px; }
+
+.voce_precisa .cada_solucao .botao_solucao .solucao_dropdown .drop_item:last-child { margin-bottom: 0; }
+
+.voce_precisa .cada_solucao .descricao_solucao { padding-left: 32px; padding-right: 32px; padding-top: 19px; padding-bottom: 38px; }
+
+.voce_precisa .cada_solucao .descricao_solucao p { margin-bottom: 0; font-weight: 300; color: #838383; font-size: 14px; line-height: 20px; }

@@ -541,3 +541,48 @@ a.botao, button.botao{
 .abrir_menu{
   display: block !important;
 }
+
+// Paginas Interna
+
+.titulo_page {
+    background: url(../images/suporte/suporte.jpg) no-repeat center top;
+    height: 275px;
+    .breadcrumbv2 {
+        position: absolute;
+        left: 40px;
+        top: 25px;
+        a {
+            color: #FFF;
+            font-weight: 500;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        span {
+            margin: 0 5px;
+            color: #FFF;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        .home_bread {
+            background-position: -23px -21px;
+            width: 14px;
+            height: 12px;
+        }
+    }
+    h1 {
+        font-weight: 400;
+        color: #FFF;
+        text-transform: uppercase;
+        letter-spacing: 0.4em;
+        font-size: 20px;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+}
