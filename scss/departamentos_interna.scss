@@ -1,0 +1,387 @@
+.departamentos_interna {
+    background-image: url(../images/departamentos_interna/departamentos_interna.jpg);
+    svg {
+        margin-bottom: 22px;
+    }
+}
+
+.desc_departamento {
+    padding-top: 35px;
+    padding-bottom: 48px;
+    .p_40 {
+        padding-right: 40px;
+    }
+    .pt_18 {
+        padding-top: 25px;
+    }
+    h2 {
+        color: #29aed3;
+        font-size: 40px;
+        line-height: 43px;
+        margin-bottom: 14px;
+        font-weight: 400;
+    }
+    p {
+        font-size: 15px;
+        line-height: 20px;
+        color: #434b52;
+        font-weight: 400;
+        margin-bottom: 19px;
+    }
+    .cada_setor {
+        width: 308px;
+        height: 63px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        align-items: center;
+        justify-content: flex-start;
+        background: #1185c4;
+        padding-left: 40px;
+        transition: all .5s;
+        &:hover {
+            background: #053870;
+        }
+        h3 {
+            color: #FFF;
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+        .finan_i {
+            background-position: -89px -63px;
+            width: 21px;
+            height: 26px;
+        }
+        .rh_i {
+            background-position:-115px -62px;
+            width: 27px;
+            height: 26px;
+        }
+        .segur_i {
+            background-position:-146px -62px;
+            width: 21px;
+            height: 27px;
+        }
+        .infra_i {
+            background-position:-174px -62px;
+            width: 15px;
+            height: 27px;
+        }
+        .icone_setor {
+            min-width: 27px;
+            margin-right: 8px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.numeros {
+    background: #eeeeee;
+    padding-top: 45px;
+    padding-bottom: 66px;
+    h2 {
+        font-size: 30px;
+        color: #053870;
+        font-weight: 400;
+        text-align: center;
+    }
+    .listagem_numeros {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 37px;
+    }
+    .cada_numero {
+        padding: 13px 33px;
+        border-right: 2px solid #d6e2e6;
+        &:last-of-type {
+            border: 0;
+        }
+        .numero {
+            font-weight: 300;
+            color: #1185c3;
+            font-size: 45px;
+            margin-bottom: 14px;
+            text-align: center;
+        }
+        h3 {
+            color: #053870;
+            font-size: 15px;
+            font-weight: 800;
+            line-height: 17px;
+            margin-bottom: 0;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+    .mais_info {
+        font-weight: bold;
+        color: #FFF;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        padding: 9px 57px;
+        background: #2cadd0;
+        margin: 0 auto;
+    }
+}
+
+.time {
+    padding-top: 45px;
+    padding-bottom: 42px;
+    h2 {
+        font-size: 30px;
+        color: #053870;
+        font-weight: 400;
+        text-align: center;
+    }
+    .listagem_time {
+        padding-top: 30px;
+        flex-wrap: wrap;
+    }
+    .cada_time {
+        margin-bottom: 22px;
+    }
+    .dentro_time {
+        background: #eeeeee;
+        padding-bottom: 14px;
+        img {
+            min-width: 100%;
+        }
+        h3 {
+            font-weight: 900;
+            font-size: 17px;
+            color: #50bfca;
+            margin-bottom: 3px;
+            text-align: center;
+            text-transform: uppercase;
+            padding-top: 16px;
+        }
+        h4 {
+            font-weight: 400;
+            color: #959799;
+            font-size: 15px;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 0;
+        }
+    }
+}
+// Ligamos para você!
+.ligamos_voce {
+    padding-top: 36px;
+    padding-bottom: 37px;
+    background-image: url(../images/departamentos_interna/ligamos_voce.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-blend-mode: multiply;
+    background-color: #2cadd0;
+    h2 {
+        font-size: 30px;
+        color: #FFF;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .formulario_ligamos {
+        padding: 0 256px;
+    }
+    input {
+        font-size: 14px;
+        font-weight: 400;
+        color: #28619b;
+        width: 100%;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        background: #e5eef0;
+        border: 1px solid #dde7ea;
+        padding-left: 17px;
+        margin-bottom: 8px;
+        &::placeholder {
+            color: #28619b;
+        }   
+    }
+    button {
+        font-weight: bold;
+        font-size: 13px;
+        color: #FFF;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 148px;
+        height: 35px;
+        border: 0;
+        background: #ffaf00;
+        margin-top: 8px;
+        &:hover {
+            background: #053870;
+        }
+    }
+}
+
+// Outras Solucoes
+.outras_solucoes {
+    padding-top: 36px;
+    padding-bottom: 50px;
+    h2 {
+        font-size: 30px;
+        color: #053870;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    p {
+        margin-bottom: 17px !important;
+    }
+}
+.cada_solucao{
+    background: #FFF;
+    box-shadow: 1px 1px 7px 2px #0000001c;
+    .imagem_solucao{
+        background: #417ec0;
+        position: relative;
+        img{
+            mix-blend-mode: multiply;
+            max-width: 100%;
+        }
+    }
+    .titulo_solucao{
+        position: absolute;
+        bottom: 14px;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        h3{
+            font-size: 20px;
+            color: #FFF;
+            line-height: 20px;
+            font-weight: normal;
+            margin-bottom: 0;
+        }
+        i{
+            margin-right: 13px;
+        }
+        i.i_ensino{
+            width: 35px;
+            height: 32px;
+            background-position: -104px 0;
+        }
+        i.i_igrejas{
+            width: 32px;
+            height: 32px;
+            background-position: -143px -1px;
+        }
+        i.i_lojas{
+            width: 34px;
+            height: 30px;
+            background-position: -177px -2px;
+        }
+        i.i_saude{
+            width: 32px;
+            height: 32px;
+            background-position: -213px -1px;
+        }
+    }
+    .botao_solucao{
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        z-index: 2;
+        .i_dropdown{
+            background-position: -86px 0;
+            width: 17px;
+            height: 10px;
+            cursor: pointer;
+        }  
+        .solucao_dropdown {
+            position: absolute;
+            z-index: 4;
+            background: #394149e0;
+            padding-top: 20px;
+            padding-left: 15px;
+            width: 208px;
+            padding-bottom: 15px;
+            display: none;
+            top: 20px;
+            .drop_item{
+                margin-bottom: 10px;
+                h4{
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: #FFF;
+                    text-transform: uppercase;
+                    margin-bottom: 0;
+                }
+                .icone_solucao{
+                    margin-right: 10px;
+                    min-width: 21px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .s_financeiro{
+                    width: 16px;
+                    height: 19px;
+                    background-position: -248px -1px;
+                }
+                .r_financeiro{
+                    width: 20px;
+                    height: 19px;
+                    background-position: -266px 0;
+                }
+                .seguranca{
+                    width: 16px;
+                    height: 20px;
+                    background-position: -291px 0;
+                }
+                .infraestrutura{
+                    width: 11px;
+                    height: 20px;
+                    background-position: -311px 0;
+                }
+                .conectividades{
+                    width: 20px;
+                    height: 19px;
+                    background-position: -325px -1px;
+                }
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }          
+    }
+    .descricao_solucao{
+        padding-left:32px;
+        padding-right: 32px;
+        padding-top: 19px;
+        padding-bottom: 38px;
+        p{
+            margin-bottom: 0;
+            font-weight: 300;
+            color:#838383;
+            font-size: 14px;
+            line-height: 20px;
+        } 
+        .saiba_mais_solucao {
+            width: 172px;
+            height: 43px;
+            background: #28aace;
+            color: #FFF;
+            text-transform: uppercase;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            letter-spacing: 0.06em;
+            font-size: 13px;
+            font-weight: 400;
+            margin: 0 auto;
+            &:hover {
+                background: #053870;
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+@charset "UTF-8";
+.suporte_interna { background: url(../images/solucoes_interna/solucoes_interna_header.png) center top no-repeat #8b9dae; background-blend-mode: multiply; }
+
+.suporte_interna svg { margin-bottom: 36px; }
+
+/* Solucao Descrição */
+.descricao_page_solucao { background: #FFF; padding-top: 56px; padding-bottom: 48px; }
+
+.descricao_page_solucao .solucao_page_padding_l { padding-right: 35px; }
+
+.descricao_page_solucao .solucao_page_padding_r { padding-left: 60px; }
+
+.descricao_page_solucao h2 { color: #29aed3; font-size: 38px; line-height: 43px; margin-bottom: 73px; font-weight: normal; }
+
+.descricao_page_solucao .cada_caixa_solucao { background: #eeeeee; width: 100%; height: 57px; padding-left: 34px; padding-right: 21px; margin-bottom: 16px; }
+
+.descricao_page_solucao .cada_caixa_solucao h3 { font-size: 18px; font-weight: bold; color: #1185c4; line-height: 17px; margin-bottom: 0; text-transform: uppercase; }
+
+.descricao_page_solucao h4 { font-weight: 800; color: #2eafd1; font-size: 17px; margin-bottom: 29px; line-height: 20px; margin-top: 30px; }
+
+.descricao_page_solucao p { font-size: 15px; line-height: 20px; color: #434b52; }
+
+.descricao_page_solucao a.solucao_info_btn { font-size: 13px; font-weight: bold; margin-top: 63px; }
+
+/* Painel de Gestao */
+.painel_gestao { padding-top: 46px; padding-bottom: 46px; background: #eeeeee; }
+
+.painel_gestao h3 { font-size: 28px; font-weight: bold; color: #2eafd1; line-height: 35px; margin-bottom: 23px; }
+
+.painel_gestao p { color: #434b52; font-size: 15px; line-height: 20px; margin-bottom: 33px; }
+
+.painel_gestao .slick-next { right: 0; }
+
+.painel_gestao .slick-prev { left: 0; }
+
+.painel_gestao ul.lista_gestao { padding-left: 21px; }
+
+.painel_gestao ul.lista_gestao li { color: #434b52; font-size: 15px; line-height: 27px; }
+
+.painel_gestao .carousel_slick { text-align: center; width: 350px; margin-left: auto; margin-right: auto; margin-top: 15px; }
+
+.painel_gestao .carousel_slick img { width: inherit !important; }
+
+.painel_gestao .carousel_slick .slick-dots { bottom: -60px; }
+
+.painel_gestao .carousel_slick .slick-dots li button:before { font-family: slick; font-size: 13px; line-height: 20px; position: absolute; top: 0; left: 0; width: 12px; height: 12px; content: '•'; text-align: center; opacity: 1; color: #97d1e1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+.painel_gestao .carousel_slick .slick-dots li.slick-active button:before { opacity: 1; color: #ffb500; }
+
+/* Download */
+.download_solucao { padding-top: 64px; position: relative; }
+
+.download_solucao:after { position: absolute; width: 100%; height: 464px; background: #16366a; top: 0; z-index: -1; content: ''; }
+
+.download_solucao h2 { color: #FFF; }
+
+.download_solucao .listagem_downloads { margin: 0 63px; }
+
+.download_solucao .down_icone { background-position: -2px -42px; width: 44px; margin-right: 15px; height: 52px; }
+
+.download_solucao h4 { font-weight: bold; font-size: 14px; color: #FFF; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0; }
+
+.download_solucao .compartilhar { position: absolute; top: 0px; right: 63px; }
+
+.download_solucao .compartilhar .abrir_compartilhar { background: #232629eb; padding: 13px; border-radius: 16px; position: absolute; top: 49px; left: -65px; display: none; }
+
+.download_solucao .compartilhar .abrir_compartilhar a { margin-right: 7px; }
+
+.download_solucao .compartilhar .abrir_compartilhar a:last-child { margin-right: 0; }
+
+.download_solucao .compartilhar .abrir_compartilhar::after { content: ''; position: absolute; top: -10px; left: 50%; transform: translateX(-50%); width: 0; height: 0; border-style: solid; border-width: 0 12.5px 12px 12.5px; border-color: transparent transparent #232629eb transparent; }
+
+.download_solucao .compartilhar .compar { background-position: -235px -158px; width: 31px; height: 31px; }
+
+.download_solucao .compartilhar .wp_comp { background-position: -274px -158px; width: 41px; height: 39px; }
+
+.download_solucao .compartilhar .fb_comp { background-position: -322px -158px; width: 40px; height: 40px; }
+
+.download_solucao .compartilhar .mail_comp { background-position: -370px -158px; width: 40px; height: 40px; }

@@ -1,0 +1,223 @@
+.quemsomos_title {
+    background-image: url(../images/apresentacao/apresentacao.jpg);
+    background-blend-mode: multiply;
+    background-color: #8b9dae;
+}
+
+.desc_apresentacao {
+    padding-bottom: 34px;
+    h2 {
+        color: #29aed3;
+        font-size: 40px;
+        font-weight: 400;
+        padding-top: 36px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    p {
+        font-size: 15px;
+        line-height: 20px;
+        color: #434b52;
+        padding: 0 92px;
+        text-align: center;
+    }
+}
+
+.video_apresentacao {
+    position: relative;
+    img {
+        width: 100%;
+    }
+    &:after {
+        content: url('data:image/svg+xml; utf8, <svg 
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="85px" height="85px">
+       <path fill-rule="evenodd"  fill="rgb(44, 173, 208)"
+        d="M42.500,85.000 C19.065,85.000 -0.000,65.935 -0.000,42.500 C-0.000,19.065 19.065,-0.000 42.500,-0.000 C65.935,-0.000 85.000,19.065 85.000,42.500 C85.000,65.935 65.935,85.000 42.500,85.000 ZM42.500,9.022 C24.040,9.022 9.022,24.040 9.022,42.500 C9.022,60.960 24.040,75.978 42.500,75.978 C60.960,75.978 75.978,60.960 75.978,42.500 C75.978,24.040 60.960,9.022 42.500,9.022 ZM32.460,26.117 L60.903,42.500 L32.460,58.883 L32.460,26.117 Z"/>
+       </svg>');
+        width: 85px;
+        height: 85px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        cursor: pointer;
+    }
+}
+
+.historia {
+    background: #1e4c7c;
+    padding-top: 50px;
+    padding-bottom: 52px;
+    h2 {
+        text-align: center;
+        color: #FFF;
+        font-weight: 400;
+        font-size: 30px;
+        margin-bottom: 45px;
+    }
+    .cada_ano {
+        text-align: center;
+        position: relative;
+        .ano {
+            font-size: 18px;
+            color: #FFF;
+            font-weight: 400;
+        }
+        .bolinha {
+            width: 16px;
+            height: 16px;
+            background: #29aed3;
+            border-radius: 100%;
+            display: block;
+            margin: 0 auto;
+            margin-top: 28px;
+        }
+    }
+    .slick-list {
+        margin: 0 88px;
+        z-index: 20;
+    }
+
+    .slick-prev {
+        background-position: -281px -68px;
+        width: 12px;
+        height: 19px;
+        left: 3px;
+    }
+    .slick-next {
+        background-position:-298px -68px;
+        width: 12px;
+        height: 19px;
+        right: 3px;
+    }
+    .slick-next , .slick-prev {
+        top: 70%;
+    }
+
+
+    .linha_do_tempo {
+        position: relative;
+        height: 90px;
+        &:after {
+            content: '';
+            background: url(../images/apresentacao/linha.png);
+            width: 95%;
+            height: 12.5px;
+            position: absolute;
+            top: 57px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            margin-left: 2.5%;
+        }
+    }
+
+    .abrir_linha {
+        position: relative;
+        top: 0;
+        padding: 32px 38px;
+        background: #eeeeee;
+        width: 310px;
+        margin-top: 25px;
+        margin-left: 0;
+        display: none;
+        &:before {
+            content: '';
+            position: absolute;
+            top: -14px;
+            left: 81px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 15px 14px 15px;
+            border-color: transparent transparent #eeeeee transparent;
+        }
+        h4 {
+            text-align: center;
+            margin-bottom: 9px;
+            text-transform: uppercase;
+            color: #2babcf;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        img {
+            max-width: 100%;
+            margin-bottom: 12px;
+        }
+        p {
+            font-size: 16px;
+            color: #6a7480;
+            line-height: 19px;
+            font-weight: 400;
+            margin-bottom: 0;
+        }
+    }
+    .slick-slide:nth-child(n+5):nth-child(-n+15) .abrir_linha {
+        margin-left: -122px;
+        &:before {
+            left: 204px;
+        }
+    }
+}
+
+.o_move {
+    padding-top: 46px;
+    padding-bottom: 38px;
+    h2 {
+        text-align: center;
+        color: #1e4b7b;
+        font-weight: 400;
+        font-size: 30px;
+        margin-bottom: 36px;
+    }
+    .dentro_move {
+        width: 100%;
+        border: 1px solid #2babcf;
+        padding: 51px 57px;
+        height: 100%;
+        h3 {
+            text-transform: uppercase;
+            font-weight: 900;
+            letter-spacing: 0.1em;
+            color: #1e4b7b;
+            font-size: 20px;
+            margin-bottom: 10px;
+            margin-top: 6px;
+            text-align: center;
+        }
+        p {
+            font-size: 15px;
+            line-height: 20px;
+            color: #383838;
+            font-weight: 400;
+            margin-bottom: 0;
+            text-align: center;
+        }
+        // Icones
+        .icone_move {
+            height: 78px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            width: 100%;
+        }
+        .missao_i {
+            background-position:-349px -90px;
+            width: 62px;
+            height: 62px;
+        }
+        .visao_i {
+            background-position:-416px -87px;
+            width: 78px;
+            height: 78px;
+        }
+        .valores_i {
+            background-position:-442px -6px;
+            width: 55px;
+            height: 74px;
+        }
+    }
+}

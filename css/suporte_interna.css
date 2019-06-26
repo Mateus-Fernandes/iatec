@@ -78,3 +78,35 @@ a.accordion-toggle[aria-expanded="false"] .up, a.accordion-toggle .up { backgrou
 .canais_suporte .chat_c { padding-left: 11px; width: 230px; border: 2px solid #1185c4; height: 35px; display: flex; align-items: center; }
 
 .canais_suporte .chat_c a { text-transform: uppercase; }
+
+.chamado_online { background: #eeeeee; padding-top: 44px; padding-bottom: 58px; }
+
+.chamado_online h2 { font-size: 30px; color: #053870; font-weight: 400; margin-bottom: 34px; text-align: center; }
+
+.chamado_online input, .chamado_online select, .chamado_online textarea { width: 100%; font-size: 15px; font-weight: 400; color: #657d95; height: 35px; display: flex; align-items: center; padding-left: 15px; background: #FFF; border: 0; margin-bottom: 11px; }
+
+.chamado_online textarea { height: 114px; align-items: flex-start; padding-top: 17px; }
+
+.chamado_online .caixa_select { position: relative; }
+
+.chamado_online .caixa_select:after { content: ''; background: url("../images/assets/sprite.png") no-repeat -56px -48px #FFF; width: 14px; height: 9px; position: absolute; right: 21px; top: 13px; z-index: 99; }
+
+.chamado_online button { width: 219px; height: 35px; display: flex; align-items: center; font-size: 13px; font-weight: bold; letter-spacing: 0.05em; color: #FFF; background: #2cadd0; justify-content: center; border: 0; text-transform: uppercase; }
+
+.chamado_online .uploadbutton { height: 35px; font-size: 15px; font-weight: 400; color: #657d95; overflow: hidden; cursor: pointer; display: flex; align-items: center; margin-bottom: 0; max-width: 331px; background: #FFF; }
+
+.chamado_online .uploadbutton .input-file { opacity: 0; width: 0; }
+
+.chamado_online .uploadbutton .button { width: 100px; text-align: center; background: #c0c7c9; color: #fff; font-weight: bold; font-size: 13px; letter-spacing: 0.05em; text-transform: uppercase; display: flex; height: 35px; justify-content: center; align-items: center; }
+
+.chamado_online .uploadbutton .input-file-text { width: 277px; padding-left: 15px; display: inline-block; }
+
+.links_uteis { padding-top: 45px; padding-bottom: 80px; }
+
+.links_uteis h2 { font-size: 30px; color: #053870; font-weight: 400; margin-bottom: 34px; text-align: center; }
+
+.links_uteis .col-md-6 { margin-bottom: 16px; }
+
+.links_uteis .dentro_link { background: #eeeeee; width: 100%; height: 58px; padding-left: 22px; display: flex; align-items: center; color: #1185c4; letter-spacing: 0.05em; font-size: 16px; text-transform: uppercase; font-weight: bold; position: relative; }
+
+.links_uteis .dentro_link:after { background: url("../images/assets/sprite.png") no-repeat -217px -38px; width: 22px; height: 19px; position: absolute; right: 25px; top: 20px; content: ''; }

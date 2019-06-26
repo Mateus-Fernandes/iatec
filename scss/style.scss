@@ -11,6 +11,9 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+a, button, i {
+    transition: all .4s;
+}
 .sprite{
     background: url(../images/assets/sprite.png) no-repeat;
     display: block;
@@ -186,6 +189,9 @@ a.botao, button.botao{
     letter-spacing: 0.06em;
     padding: 11px 46px;
     border: 0;
+    &:hover {
+        background: #07274c;
+    }
 }
 
   nav ul li a,
@@ -308,6 +314,9 @@ a.botao, button.botao{
             padding: 8px 25px;
             background: #122b55;
             color: #FFF;
+            &:hover {
+                background: #28aace;
+            }
         }          
         i.icone_suporte{
             width: 18px;
@@ -318,6 +327,7 @@ a.botao, button.botao{
         .submenu_footer{
             ul{
                 padding-left: 15px;
+                list-style: none;
                 li{
                     margin-bottom: 0px;
                     a{
@@ -584,5 +594,33 @@ a.botao, button.botao{
         flex-wrap: wrap;
         flex-direction: column;
         margin-bottom: 0;
+    }
+}
+
+// Slick Arrows
+
+.slick-prev {
+    background: url('../images/assets/sprite.png') no-repeat -57px -74px;
+	width: 9px;
+    height: 14px;
+    left: 35px;
+    &:hover {
+        background-position: -57px -74px;
+    }
+    &:before{
+        content: none;
+    }
+}
+
+.slick-next {
+    background: url('../images/assets/sprite.png') no-repeat -71px -74px;
+	width: 9px;
+    height: 14px;
+    right: 35px;
+    &:hover {
+        background-position: -71px -74px;
+    }
+    &:before{
+        content: none;
     }
 }

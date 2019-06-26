@@ -1,0 +1,57 @@
+.contato_interna { background-image: url(../images/contato/contato.png); background-color: #8b9dae; background-blend-mode: multiply; height: 318px; }
+
+.tel_contato { background: #1188c9; padding: 30px 0; }
+
+.tel_contato h2 { color: #FFF; font-size: 35px; font-weight: 400; line-height: 40px; margin-bottom: 0; }
+
+.tel_contato .telefones_icones a { color: #07274c; font-weight: 500; font-size: 17px; text-transform: uppercase; margin-right: 70px; align-items: center; }
+
+.tel_contato .telefones_icones a:last-child { margin-right: 0; }
+
+.tel_contato .telefones_icones a i { margin-right: 7px; }
+
+.tel_contato .telefones_icones .fixo_i { background-position: -222px -67px; width: 21px; height: 20px; }
+
+.tel_contato .telefones_icones .mail_i_c { background-position: -250px -69px; width: 22px; height: 18px; }
+
+.mapa_contato .left_mapa { position: absolute; background: #f50; top: 0; left: 0; height: 100%; width: 46.5%; overflow: hidden; }
+
+.mapa_contato .left_mapa iframe { width: 100%; height: 100%; }
+
+.mapa_contato .blue_right { position: absolute; background: #07274c; top: 0; right: 0; height: 126px; width: 53.5%; }
+
+.mapa_contato .padding_contato { padding-left: 5px; }
+
+.mapa_contato .estamos_em { padding: 35px 0; }
+
+.mapa_contato .estamos_em h3 { color: #28aace; font-weight: 900; font-size: 23px; letter-spacing: 0.04em; margin-bottom: 11px; }
+
+.mapa_contato .estamos_em h4 { font-weight: 400; font-size: 15px; color: #FFF; letter-spacing: 0.05em; margin-bottom: 0; }
+
+.mapa_contato .envie_mensagem { padding-bottom: 48px; }
+
+.mapa_contato .envie_mensagem h2 { text-transform: uppercase; color: #28aace; text-align: center; font-size: 28px; font-weight: 400; letter-spacing: 0.04em; margin-bottom: 42px; padding-top: 57px; }
+
+.mapa_contato .envie_mensagem input { width: 100%; background: #eeeeee; color: #253434; font-size: 14px; letter-spacing: 0.02em; font-weight: 400; padding-left: 21px; height: 38px; display: flex; border: 0; align-items: center; margin-bottom: 14px; }
+
+.mapa_contato .envie_mensagem textarea { width: 100%; background: #eeeeee; color: #253434; font-size: 14px; letter-spacing: 0.02em; font-weight: 400; padding-left: 21px; height: 107px; border: 0; padding-top: 13px; margin-bottom: 14px; display: flex; }
+
+.mapa_contato .envie_mensagem button { width: 170px; height: 38px; display: flex; justify-content: center; align-items: center; color: #FFF; letter-spacing: 0.06em; font-size: 13px; background: #28aace; text-transform: uppercase; border: 0; }
+
+.mapa_contato .envie_mensagem button:hover { background: #07274c; }
+
+.como_ajudar { background: #363d43; height: 104px; }
+
+.como_ajudar h2 { font-size: 30px; color: #FFF; font-weight: 400; margin-right: 65px; margin-bottom: 0; }
+
+.como_ajudar h3 { text-transform: uppercase; font-weight: bold; font-size: 15px; color: #FFF; text-align: center; letter-spacing: 0.1em; margin-bottom: 0; }
+
+.como_ajudar h3 span { font-weight: 900; letter-spacing: 0; color: #ffaf00; font-size: 25px; display: block; }
+
+.botoes_contato { padding: 30px 0; }
+
+.botoes_contato a { width: 230px; height: 39px; display: flex; justify-content: center; align-items: center; color: #FFF; font-size: 13px; letter-spacing: 0.05em; font-weight: 400; background: #28aace; text-transform: uppercase; }
+
+.botoes_contato a:first-of-type { margin-right: 38px; }
+
+.botoes_contato a:hover { background: #07274c; }
