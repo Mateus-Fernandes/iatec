@@ -11,6 +11,8 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/departamentos.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -75,7 +77,7 @@
                         </div>
                     </div>
                 </div>
-                <nav class="navigation d-md-none d-flex justify-content-center">
+                <nav class="navigation d-lg-none d-flex justify-content-center">
                     <div class="hamburger">
                         <span class="bars"></span>
                     </div>
@@ -100,12 +102,12 @@
 
     <section class="titulo_page solucoes_page">
         <div class="container h-100 position-relative">
-            <div class="breadcrumbv2 d-flex">
+            <div class="breadcrumbv2 d-flex" data-aos="fade-up">
                 <a href="#" class="sprite home_bread"></a>
                 <span>></span>
                 <a href="#">Formulários</a>
             </div>
-            <h1>Departamentos</h1>
+            <h1 data-aos="fade-down">Departamentos</h1>
         </div>
     </section>
 
@@ -113,12 +115,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <h2>Lorem ipsufsm <br>
+                    <h2 data-aos="fade-up">Lorem ipsufsm <br>
                         dolor fgsit afmet, <br>
                         consectetur adipiing </h2>
                 </div>
                 <div class="col-lg-8">
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                    <p data-aos="fade-down">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
                         magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
                         ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
                         incidunt ut labore et dolore mpora incidunt ut labore et dolore magnam aliquam quaerat
@@ -131,7 +133,7 @@
     <section class="solucoes_inicial">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 padding_solucoes">
+                <div class="col-lg-3 col-md-6 padding_solucoes" data-aos="fade-up">
                     <div class="cada_solucao">
                         <div class="imagem_solucao">
                             <img src="images/home/solucao01.jpg" alt="">
@@ -173,7 +175,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 padding_solucoes">
+                <div class="col-lg-3 col-md-6 padding_solucoes" data-aos="fade-down">
                     <div class="cada_solucao">
                         <div class="imagem_solucao">
                             <img src="images/home/solucao02.jpg" alt="">
@@ -215,7 +217,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 padding_solucoes">
+                <div class="col-lg-3 col-md-6 padding_solucoes" data-aos="fade-up">
                     <div class="cada_solucao">
                         <div class="imagem_solucao">
                             <img src="images/home/solucao03.jpg" alt="">
@@ -257,7 +259,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 padding_solucoes">
+                <div class="col-lg-3 col-md-6 padding_solucoes" data-aos="fade-down">
                     <div class="cada_solucao">
                         <div class="imagem_solucao">
                             <img src="images/home/solucao04.jpg" alt="">
@@ -305,30 +307,30 @@
 
     
     <footer>
-        <div class="newsletter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 align-items-center">
-                        <h3 class="text-md-left text-center">Newsletter</h3>
-                    </div>
-                    <div class="col-lg-9">
-                        <form action="#">
-                            <div class="row">
-                                <div class="col-lg-5 mt-md-0 mt-3">
-                                    <input type="text" placeholder="Nome">
-                                </div>
-                                <div class="col-lg-7 px-md-0 px-3 mt-md-0 mt-3">
-                                    <div class="d-flex flex-md-nowrap flex-wrap justify-content-md-between justify-content-center">
-                                        <input type="text" placeholder="E-mail" class="input_email">
-                                        <button type="submit" class="botao enviar_news mt-md-0 mt-4">CADASTRAR-SE</button>
+            <div class="newsletter" data-aos="fade-up">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 align-items-center">
+                            <h3 class="text-md-left text-center">Newsletter</h3>
+                        </div>
+                        <div class="col-lg-9 col-md-9">
+                            <form action="#">
+                                <div class="row">
+                                    <div class="col-lg-5 col-md-5 mt-md-0 mt-3">
+                                        <input type="text" placeholder="Nome">
+                                    </div>
+                                    <div class="col-lg-7 col-md-7 px-md-0 px-3 mt-md-0 mt-3">
+                                        <div class="d-flex flex-md-nowrap flex-wrap justify-content-md-between justify-content-center">
+                                            <input type="text" placeholder="E-mail" class="input_email">
+                                            <button type="submit" class="botao enviar_news mt-md-0 mt-4">CADASTRAR-SE</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         <div class="info_footer">
             <div class="container px-md-0 px-3">
                 <div class="d-flex justify-content-md-between justify-content-center align-items-center flex-md-nowrap flex-wrap">
@@ -412,7 +414,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="js/custom.js"></script>
 </body>
 

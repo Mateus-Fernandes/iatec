@@ -170,6 +170,8 @@
         position: absolute;
         top: 0px;
         right: 63px;
+        z-index: 10;
+        cursor: pointer;
         .abrir_compartilhar {
             background: #232629eb;
             padding: 13px;
@@ -220,3 +222,544 @@
     }
 }
 
+.dentro_video {
+    background: #2cadd0;
+    margin-top: 45px;
+    box-shadow: 0px 24px 59px 0px rgba(51, 58, 69, 0.1); 
+    img {
+        mix-blend-mode: multiply;
+    }
+    svg {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        left: 50%;
+    }
+}
+
+.diferencial_sol {
+    padding-bottom: 50px;
+    padding-top: 43px;
+    .dentro_diferencial {
+        background:#eeeeee;
+        padding-left: 35px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        align-content: center;
+        transition: all .4s;
+        margin-bottom: 20px;
+        &:hover {
+            box-shadow: 0px 24px 59px 0px rgba(51, 58, 69, 0.12); 
+        }
+        h4 {
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: bold;
+            color: #1185c4;
+            letter-spacing: 0.1em;
+            margin-left: 26px;
+            margin-bottom: 0;
+            display: flex;
+            align-items: center;
+        }
+        .right_i {
+            background-position:-415px -161px;
+            min-width: 34px;
+            height: 34px;
+        }
+    }
+}
+
+
+.dados_est {
+    background: #eeeeee;
+    padding-top: 46px;
+    padding-bottom: 44px;
+
+    h3 {
+        font-weight: 900;
+        font-size: 28px;
+        color: #2eafd1;
+        line-height: 37px;
+        padding-top: 26px;
+        text-align: left;
+        margin-bottom: 14px;
+    }
+    p {
+        font-size: 15px;
+        line-height: 20px;
+        color: #434b52;
+        margin-bottom: 0;
+        text-align: left;
+    }
+}
+
+// Depoimentos
+
+.porque_trabalhar {
+    background: #1185c4;
+    padding-top: 55px;
+    padding-bottom: 54px;
+    h2 {
+        font-size: 30px;
+        color: #FFF;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    h3 {
+        color: #FFF;
+        font-weight: bold;
+        font-size: 21px;
+        margin-bottom: 2px;
+    }
+    h4 {
+        color: #FFF;
+        font-weight: 300;
+        font-size: 14px;
+        letter-spacing: 0.2em;
+        color: #e0e7f0;
+        text-transform: uppercase;
+    }
+    p {
+        font-weight: 400;
+        color: #FFF;
+        font-size: 14px;
+        line-height: 19px;
+        font-style: italic;
+    }
+    img {
+        margin-right: 15px;
+    }
+    .slick-list {
+        margin: 0 170px;
+    }
+    .slick-prev {
+        left: 127px;
+        background-position:  -194px -70px;
+    }
+    .slick-next {
+        right: 127px;
+        background-position: -207px -70px;
+    }
+    .slick-dots li button:before {
+        font-size: 12px;
+        color: #FFF;
+        opacity: 1;
+    }
+    .slick-dots li.slick-active button:before {
+        opacity: 1;
+        color: #2aa9cd;
+    }
+    .slick-dots {
+        bottom: -53px;
+    }
+}
+
+// Ligamos para você!
+.ligamos_voce {
+    padding-top: 36px;
+    padding-bottom: 37px;
+    background-image: url(../images/departamentos_interna/ligamos_voce.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-blend-mode: multiply;
+    background-color: #2cadd0;
+    h2 {
+        font-size: 30px;
+        color: #FFF;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .formulario_ligamos {
+        padding: 0 256px;
+    }
+    input {
+        font-size: 14px;
+        font-weight: 400;
+        color: #28619b;
+        width: 100%;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        background: #e5eef0;
+        border: 1px solid #dde7ea;
+        padding-left: 17px;
+        margin-bottom: 8px;
+        &::placeholder {
+            color: #28619b;
+        }   
+    }
+    button {
+        font-weight: bold;
+        font-size: 13px;
+        color: #FFF;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 148px;
+        height: 35px;
+        border: 0;
+        background: #ffaf00;
+        margin-top: 8px;
+        &:hover {
+            background: #053870;
+        }
+    }
+}
+
+/* Perguntas e Respostas */
+.duvidas h4 a {
+	color: #1185c4;
+	font-size: 15px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+}
+
+.duvidas h4 {
+    background: transparent;
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 11px 0px;
+}
+
+.panel-body {
+    color: #83849b;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 22px 0px;
+    padding-top: 12px;
+    line-height: 18px;
+    margin-top: 2px;
+    letter-spacing: -0.02em;
+}
+.duvidas{
+    padding-top: 75px;
+    padding-bottom: 78px;
+    
+}
+.conteudoDuvidas{
+    padding: 0 22px;
+    padding-top: 0px;
+}
+a.accordion-toggle[aria-expanded="true"]{
+    .up{
+        background: url(../images/assets/sprite.png);
+        width: 14px;
+	    height: 9px;
+        position: absolute;
+        top: 54%;
+        transform: translate(-50%, -50%);
+        background-position: -56px -60px;
+        right:17px;
+    }
+    .panel-heading {
+        border-bottom: none;
+    }
+}
+a.accordion-toggle[aria-expanded="false"], a.accordion-toggle{
+    .up{
+        background: url(../images/assets/sprite.png);
+        width: 14px;
+        height: 9px;
+        position: absolute;
+        top: 54%;
+        transform: translate(-50%, -50%);
+        background-position: -56px -48px;
+        right: 17px;
+    }
+
+}
+.panel-heading {
+    position: relative;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.duvidas_frequentes {
+    padding-top: 37px;
+    padding-bottom: 50px;
+    h2 {
+        font-size: 30px;
+        color: #053870;
+        font-weight: 400;
+        margin-bottom: 34px;
+        text-align: center;
+    }
+    input {
+        width: 552px;
+        height: 35px;
+        display: flex;
+        align-content: center;
+        padding-left: 20px;
+        font-size: 14px;
+        color: #657d95;
+        background: #e5eef0;
+        border: 1px solid #dde7ea;
+        margin-bottom: 11px;
+    }
+    button {
+        background-position: -77px -36px;
+	width: 24px;
+    height: 21px;
+    border: none;
+    margin-left: 11px;
+    margin-top: 7px;
+    }
+}
+
+// Outras Solucoes
+.outras_solucoes {
+    padding-top: 36px;
+    padding-bottom: 50px;
+    background: #eeeeee;
+    h2 {
+        font-size: 30px;
+        color: #053870;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    p {
+        margin-bottom: 17px !important;
+    }
+}
+.cada_solucao{
+    background: #FFF;
+    box-shadow: 1px 1px 7px 2px #0000001c;
+    .imagem_solucao{
+        background: #417ec0;
+        position: relative;
+        img{
+            mix-blend-mode: multiply;
+            max-width: 100%;
+        }
+    }
+    .titulo_solucao{
+        position: absolute;
+        bottom: 14px;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        h3{
+            font-size: 20px;
+            color: #FFF;
+            line-height: 20px;
+            font-weight: normal;
+            margin-bottom: 0;
+        }
+        i{
+            margin-right: 13px;
+        }
+        i.i_ensino{
+            width: 35px;
+            height: 32px;
+            background-position: -104px 0;
+        }
+        i.i_igrejas{
+            width: 32px;
+            height: 32px;
+            background-position: -143px -1px;
+        }
+        i.i_lojas{
+            width: 34px;
+            height: 30px;
+            background-position: -177px -2px;
+        }
+        i.i_saude{
+            width: 32px;
+            height: 32px;
+            background-position: -213px -1px;
+        }
+    }
+    .botao_solucao{
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        z-index: 2;
+        .i_dropdown{
+            background-position: -86px 0;
+            width: 17px;
+            height: 10px;
+            cursor: pointer;
+        }  
+        .solucao_dropdown {
+            position: absolute;
+            z-index: 4;
+            background: #394149e0;
+            padding-top: 20px;
+            padding-left: 15px;
+            width: 208px;
+            padding-bottom: 15px;
+            display: none;
+            top: 20px;
+            .drop_item{
+                margin-bottom: 10px;
+                h4{
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: #FFF;
+                    text-transform: uppercase;
+                    margin-bottom: 0;
+                }
+                .icone_solucao{
+                    margin-right: 10px;
+                    min-width: 21px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .s_financeiro{
+                    width: 16px;
+                    height: 19px;
+                    background-position: -248px -1px;
+                }
+                .r_financeiro{
+                    width: 20px;
+                    height: 19px;
+                    background-position: -266px 0;
+                }
+                .seguranca{
+                    width: 16px;
+                    height: 20px;
+                    background-position: -291px 0;
+                }
+                .infraestrutura{
+                    width: 11px;
+                    height: 20px;
+                    background-position: -311px 0;
+                }
+                .conectividades{
+                    width: 20px;
+                    height: 19px;
+                    background-position: -325px -1px;
+                }
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }          
+    }
+    .descricao_solucao{
+        padding-left:32px;
+        padding-right: 32px;
+        padding-top: 19px;
+        padding-bottom: 38px;
+        p{
+            margin-bottom: 0;
+            font-weight: 300;
+            color:#838383;
+            font-size: 14px;
+            line-height: 20px;
+        } 
+        .saiba_mais_solucao {
+            width: 172px;
+            height: 43px;
+            background: #28aace;
+            color: #FFF;
+            text-transform: uppercase;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            letter-spacing: 0.06em;
+            font-size: 13px;
+            font-weight: 400;
+            margin: 0 auto;
+            &:hover {
+                background: #053870;
+            }
+        }
+    }
+}
+
+.parceiros {
+    padding-bottom: 50px;
+    h2 {
+        color: #053870;
+        font-size: 30px;
+        font-weight: 400;
+        padding-top: 45px;
+        margin-bottom: 17px;
+        text-align: center;
+    }
+    img {
+        mix-blend-mode: multiply;
+        width: auto !important;
+    }
+    .slick-slide div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 83px;
+    }
+    .slick-slide {
+        min-height: 83px;
+    }
+    .slick-list {
+        margin: 0 74px;
+    }
+}
+
+/// Modal 
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 879px;
+        margin: 1.75rem auto;
+    }
+}
+.modal {
+    background: #16366aab;
+    .modal-content {
+        background: #16366a;
+        border: 0;
+        border-radius: 0;
+    }
+    .close {
+        color: #FFF;
+    }
+    .modal-body {
+        padding: 0 100px;
+        padding-bottom: 53px;
+        h3 {
+            color: #FFF;
+            font-size: 30px;
+            font-weight: 400;
+            text-align: center;
+            padding-top: 34px;
+            margin-bottom: 33px;
+        }
+        input {
+            width: 100%;
+            height: 37px;
+            padding-left: 18px;
+            font-size: 14px;
+            color: #28619b;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            border: 1px solid #dde7ea;
+            background: #e5eef0;
+            &::placeholder {
+                color: #28619b;
+            }
+        }
+        .solicitar_modal {
+            height: 37px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #FFF;
+            letter-spacing: 0.05em;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: 0;
+            background: #ffaf00;
+        }
+    }
+}

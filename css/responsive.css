@@ -4,10 +4,155 @@
 */
 @media (min-width: 320px) and (max-width: 480px) { header { position: sticky; top: 0; z-index: 99; }
   header .logo { padding-left: 15px; padding-bottom: 12px; }
+  .carousel-caption { width: 100%; bottom: 57px; }
+  .carousel-caption .padding_slider { padding-left: 42px; padding-right: 39px; text-align: center; }
+  .carousel-caption h2 { font-size: 41px; }
+  .destaque_inicial h2 { text-align: center; }
+  .padding_solucoes { padding: 0 60px; }
+  .cada_solucao { margin-bottom: 23px; }
+  .solucoes_inicial .cada_solucao .botao_solucao .solucao_dropdown { left: -176px; }
+  .titulo_page .breadcrumbv2 { position: absolute; left: 50%; transform: translateX(-50%); top: 25px; width: 100%; justify-content: center; }
+  .cases_pagina .panel-body { font-size: 17px; }
+  .parceiros .slick-list { margin: 0 35px; }
+  .slick-prev { left: 10px; }
+  .slick-next { right: 10px; }
+  .porque_trabalhar .slick-list { margin: 0 20px; }
+  .porque_trabalhar .slick-prev { left: 6px; }
+  .porque_trabalhar .slick-next { right: 6px; }
+  .cada_trabalho { flex-wrap: wrap; justify-content: center; }
+  .texto_tra { text-align: center; margin-top: 10px; }
+  .conheca_dif { flex-wrap: wrap; text-align: center; }
+  .conheca_plano .cada_plano { margin: 0 auto; margin-bottom: 15px; }
+  .conheca_plano .cada_plano:nth-child(3n) { margin-right: 0; margin: 0 auto; margin-bottom: 15px; }
+  .deixe_curriculo .formulario_curriculo { margin: 0 0; flex-wrap: wrap; }
+  .deixe_curriculo .formulario_curriculo input { width: 100%; margin-bottom: 9px; }
+  .deixe_curriculo .formulario_curriculo button { margin-top: 9px; }
+  .vagas_abertas ul { flex-wrap: wrap; }
+  .vagas_abertas ul li { margin-bottom: 20px; }
+  .diferenciais_lista .slick-list { margin: 0 38px; }
+  .desc_apresentacao p { padding: 0 13px; }
+  .video_apresentacao img { width: 100%; height: 131px; }
+  .historia .slick-list { margin: 0 20px; }
+  .historia .abrir_linha:before { left: 34px; }
+  .slick-slide:nth-child(n+3):nth-child(-n+15) .abrir_linha { margin-left: -210px; }
+  .slick-slide:nth-child(n+3):nth-child(-n+15) .abrir_linha:before { left: 246px; }
+  .slick-slide:nth-child(2) .abrir_linha { margin-left: -103px; }
+  .slick-slide:nth-child(2) .abrir_linha:before { left: 140px; }
+  .o_move .slick-list { margin: 0 33px; }
+  .numeros .mais_info { padding: 9px 45px; display: flex; }
+  .listagem_time .slick-list { margin: 0 39px; }
+  .ligamos_voce .formulario_ligamos { padding: 0 23px; }
+  .ligamos_voce button { width: 100%; }
+  .ligamos_voce { background-size: cover; }
+  .outras_solucoes .cada_solucao .descricao_solucao { display: none; }
+  .outras_solucoes .cada_solucao .botao_solucao .solucao_dropdown { z-index: 99999999; width: 255px; top: 158px; left: -223px; }
+  .descricao_page_solucao .solucao_page_padding_r { padding-left: 20px; }
+  .descricao_page_solucao a.solucao_info_btn { margin-top: 11px; margin-left: 22px !important; margin-right: 22px !important; text-align: center; }
+  .compartilhar { display: none; }
+  .download_solucao .listagem_downloads { margin: 0 10px; flex-wrap: wrap; }
+  .download_solucao .listagem_downloads .cada_download { margin-bottom: 17px; }
+  .video_solucao .container { padding: 0; }
+  .dados_est h3 { text-align: center; }
+  .dados_est p { text-align: center; }
+  .descricao_page .padding_desc { padding: 0 26px; }
+  .arquivos .container { padding: 0 91px; }
+  .conheca_wiki .container { flex-wrap: wrap; }
+  .conheca_wiki h3 { padding-bottom: 17px; margin-right: 0; }
+  .conheca_wiki { height: 148px; background-size: cover; }
+  .os_canais { flex-wrap: wrap; justify-content: center; }
+  .canais_suporte .telefone_c { margin-right: 0; margin-bottom: 20px; }
+  .canais_suporte .whats_c { margin-right: 0; margin-bottom: 10px; width: 85%; }
+  .canais_suporte .chat_c { width: 85%; }
+  .chamado_online .col-md-12.d-flex.justify-content-between { flex-wrap: wrap; justify-content: center !important; }
+  .chamado_online .anexar_curriculo { margin-bottom: 18px; }
+  .dentro_link { padding-right: 38px; }
+  section.tel_contato .container { flex-wrap: wrap; }
+  .tel_contato h2 { color: #FFF; font-size: 28px; }
+  .tel_contato .telefones_icones a { margin-right: 0; margin-top: 9px; }
+  .telefones_icones { flex-wrap: wrap; }
+  .mapa_contato .left_mapa { display: none; }
+  .mapa_contato .blue_right { width: 100%; }
+  .mapa_contato .estamos_em { padding: 26px 14px; }
+  .mapa_contato .envie_mensagem h2 { padding-top: 10px; }
+  .como_ajudar { height: 135px; }
+  .como_ajudar .container { flex-wrap: wrap; text-align: center; }
+  .como_ajudar .container h2 { font-size: 25px; text-align: center; }
+  .botoes_contato a:first-of-type { margin-right: 0; margin-bottom: 16px; }
+  .botoes_contato .container { flex-wrap: wrap; }
+  .listagem_posts .cada_post p { padding-right: 0; }
+  .cada_comentario { flex-wrap: wrap; justify-content: center; }
+  .listagem_posts .comentarios .texto_comentario { margin-left: 0; margin-top: 20px; }
   footer .newsletter form .input_email { min-width: 100%; margin-right: 0; }
-  .logo_footer { min-width: 262px; text-align: center; } }
+  .logo_footer { min-width: 262px; text-align: center; }
+  footer .bottom_footer .logo_red { margin-right: 0; } }
 
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
+@media (min-width: 768px) and (max-width: 1024px) { header .header_top a.suporte_btn { display: none !important; }
+  header .header_bottom { display: none !important; }
+  header .header_right { align-items: center; margin-top: 48px; }
+  .hamburger { top: 53px; }
+  .header .logo { padding-bottom: 13px; }
+  .carousel-caption { width: 100%; padding-left: 51px; }
+  .destaque_inicial h2 { font-size: 28px; }
+  .destaque_inicial h2 br { content: ' '; }
+  .destaque_inicial h2 br:after { content: ' '; }
+  section.solucoes_inicial .container { padding: 0 79px; }
+  .solucoes_inicial .cada_solucao { margin-bottom: 23px; }
+  .solucoes_inicial .cada_solucao .botao_solucao .solucao_dropdown { left: -100px; }
+  .porque_trabalhar .slick-list { margin: 0 34px; }
+  .porque_trabalhar .slick-prev { left: 0px; }
+  .porque_trabalhar .slick-next { right: 0px; }
+  .diferenciais_car .cada_diferencial:last-of-type { padding-right: 0; display: none; }
+  .diferenciais_car .cada_diferencial .dentro_diferencial p { padding: 0 4px; }
+  .conheca_plano img { position: relative; left: -74px; }
+  .conheca_plano .cada_plano h4 { padding-left: 58px; padding-right: 27px; padding-top: 13px; padding-bottom: 13px; margin-bottom: 0; }
+  .conheca_plano .cada_plano { margin-right: 9px; }
+  .conheca_plano .cada_plano:nth-child(3n) { margin-right: 9px; }
+  .conheca_plano .cada_plano:nth-child(2n) { margin-right: 0; }
+  .deixe_curriculo .formulario_curriculo { margin: 0 69px; flex-wrap: wrap; }
+  .deixe_curriculo .formulario_curriculo input { margin-bottom: 16px; }
+  .historia .abrir_linha:before { left: 34px; }
+  .historia .slick-slide:nth-child(n+4) .abrir_linha { margin-left: -113px; }
+  .historia .slick-slide:nth-child(n+4) .abrir_linha:before { left: 150px; }
+  .historia .slick-slide:nth-child(n+5):nth-child(-n+15) .abrir_linha { margin-left: -211px; }
+  .historia .slick-slide:nth-child(n+5):nth-child(-n+15) .abrir_linha:before { left: 249px; }
+  .o_move .dentro_move { padding: 45px 15px; }
+  .desc_departamento .cada_setor { width: 246px; padding-left: 18px; }
+  .numeros .cada_numero { padding: 13px 8px; border-right: 2px solid #d6e2e6; }
+  .numeros .cada_numero h3 { font-size: 14px; }
+  .ligamos_voce .formulario_ligamos { padding: 0 15px; }
+  .outras_solucoes .padding_solucoes { padding: 0 47px; }
+  .outras_solucoes .cada_solucao { margin-bottom: 23px; }
+  .descricao_page_solucao .solucao_page_padding_l { padding-right: 0; }
+  .video_solucao .container { padding: 0; margin: 0 auto; overflow: hidden; }
+  .download_solucao .listagem_downloads { margin: 0 9px; }
+  .diferencial_sol .dentro_diferencial { padding-left: 9px; }
+  .diferencial_sol .dentro_diferencial h4 { font-size: 16px; margin-left: 10px; }
+  .dados_est h3 { padding-top: 0; }
+  .voce_precisa .cada_solucao .titulo_solucao { bottom: 52px; left: 270px; }
+  .voce_precisa .cada_solucao { background: #FFF; box-shadow: 1px 1px 7px 2px #0000001c; margin-bottom: 20px; }
+  .voce_precisa .cada_solucao .imagem_solucao img { height: 141px; }
+  .voce_precisa .cada_solucao .botao_solucao { bottom: 59px; }
+  .descricao_page .padding_desc { padding: 0 26px; }
+  .dentro_arquivo { margin-bottom: 21px; }
+  .canais_suporte .whats_c { width: 277px; }
+  .canais_suporte .chat_c { width: 277px; }
+  .dentro_link { padding-right: 40px; }
+  .telefones_icones { flex-wrap: wrap; }
+  .tel_contato h2 { color: #FFF; font-size: 27px; min-width: 404px; }
+  a.d-flex.fixo { margin-bottom: 9px; }
+  .left_mapa { display: none; }
+  .mapa_contato .blue_right { width: 100%; }
+  footer .newsletter h3 { font-size: 25px; margin-top: 4px; }
+  .info_footer { position: relative; }
+  footer .newsletter form .input_email { max-width: 315px; margin-right: 7px; }
+  footer .newsletter .enviar_news { padding: 10px 22px; font-size: 12px; min-width: 133px; padding: 0; display: flex; justify-content: center; }
+  footer .collapse:not(.show) { display: flex; }
+  ul.navbar-nav.mr-auto { flex-direction: initial; }
+  .suporte_footer { position: absolute; right: 20px; top: 62px; }
+  footer .info_footer .navbar-light .nav-item .nav-link { font-size: 13px; margin-left: 7px; margin-right: 7px; }
+  .endereco_text { max-width: 274px; }
+  header .logo { padding-top: 6px; padding-left: 30px; padding-bottom: 7px; } }

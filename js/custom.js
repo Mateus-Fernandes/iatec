@@ -28,13 +28,68 @@ $(".dropdown-mobile").click(function()
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 5,
           slidesToScroll: 1
         }
       },
     ]
   });
 
+  $('.diferenciais_lista').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    mobileFirst: true,
+    responsive: [
+          {
+                  breakpoint: 768,
+                  settings: 'unslick'
+          }
+    ]
+  });
+
+  $('.lista_move').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    mobileFirst: true,
+    responsive: [
+          {
+                  breakpoint: 700,
+                  settings: 'unslick'
+          }
+    ]
+  });
+
+  $('.listagem_numeros').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    mobileFirst: true,
+    responsive: [
+          {
+                  breakpoint: 700,
+                  settings: 'unslick'
+          }
+    ]
+  });
+
+  $('.listagem_time').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    mobileFirst: true,
+    responsive: [
+          {
+                  breakpoint: 700,
+                  settings: 'unslick'
+          }
+    ]
+  });
+  
   $('.linha_do_tempo').slick({
     infinite: false,
     slidesToShow: 5,
@@ -44,7 +99,7 @@ $(".dropdown-mobile").click(function()
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
           slidesToScroll: 1
         }
       },
@@ -81,3 +136,5 @@ $( ".compartilhar" ).click(function() {
 $('.carousel_slick').slick({
   dots: true
 });
+
+AOS.init();

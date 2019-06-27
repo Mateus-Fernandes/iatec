@@ -3,6 +3,10 @@
 
 body { font-family: lato, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
+.modal { z-index: 9999999; }
+
+header { background: #FFF; position: sticky; top: 0; z-index: 99999; }
+
 a, button, i { transition: all .4s; }
 
 .sprite { background: url(../images/assets/sprite.png) no-repeat; display: block; }
