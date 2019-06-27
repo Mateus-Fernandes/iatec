@@ -5,7 +5,7 @@ body { font-family: lato, sans-serif; -webkit-font-smoothing: antialiased; -moz-
 
 .modal { z-index: 9999999; }
 
-header { background: #FFF; position: sticky; top: 0; z-index: 99999; }
+header { background: #FFF; position: sticky; top: 0; z-index: 1000; }
 
 a, button, i { transition: all .4s; }
 
