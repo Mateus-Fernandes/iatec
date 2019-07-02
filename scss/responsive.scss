@@ -31,9 +31,17 @@
     }
     .destaque_inicial h2 {
         text-align: center;
+        padding-left: 0;
+    }
+    .destaque_inicial p {
+        padding-left: 0;
+        text-align: center;
     }
     .padding_solucoes {
         padding: 0 60px;
+    }
+    .voce_precisa .padding_solucoes {
+        height: 13rem;
     }
     .cada_solucao {
         margin-bottom: 23px;
@@ -41,15 +49,17 @@
     .solucoes_inicial .cada_solucao .botao_solucao .solucao_dropdown {
         left: -176px;
     }
+    .voce_precisa .cada_solucao .botao_solucao .solucao_dropdown {
+        right: -51px;
+    }
 
     // Cases
     .titulo_page .breadcrumbv2 {
         position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
         top: 25px;
+        left: 0;
         width: 100%;
-    justify-content: center;
+        justify-content: center;
     }
     .cases_pagina .panel-body {
         font-size: 17px;
@@ -216,7 +226,11 @@
         padding: 0 26px;
     }
     .arquivos .container {
-        padding: 0 91px;
+        padding: 0 60px;
+    }
+    .dentro_arquivo {
+        justify-content: center;
+        padding-left: 20px;
     }
     .conheca_wiki .container {
         flex-wrap: wrap;
@@ -329,6 +343,43 @@
     footer .bottom_footer .logo_red {
         margin-right: 0;
     }
+
+// Alteracoes
+    .dentro_video img {
+        mix-blend-mode: multiply;
+        max-width: 100%;
+    }
+
+    .imagem_modal img {
+        max-width: 100%;
+    }
+    .painel_gestao .carousel_slick img {
+        width: 185px !important;
+    }
+    .painel_gestao .carousel_slick {
+        text-align: center;
+        width: 100%;
+    }
+    .cada_download {
+        justify-content: center;
+    }
+    .download_solucao:after {
+        height: 374px;
+    }
+    .outras_solucoes .cada_solucao .botao_solucao .solucao_dropdown {
+        z-index: 99999999;
+        width: 200px;
+        top: 16px;
+        left: -168px;
+    }
+    .outras_solucoes .solucoes_slider .padding_solucoes {
+        height: 13rem;
+    }
+    .diferenciais_car h2 {
+        font-size: 32px;
+        margin-right: 0;
+    text-align: center;
+    }
 }
 
 /* 
@@ -367,6 +418,7 @@
             br{content:' ';}
             br:after{content:' ';}
             font-size: 28px;
+            padding-left: 0;
         }
     }
     section.solucoes_inicial .container {

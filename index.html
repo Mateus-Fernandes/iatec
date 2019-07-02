@@ -11,6 +11,8 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -104,7 +106,10 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/home/slide01.jpg" data-aos="fade-down" class="" alt="Slide01">
+                    <picture>
+                            <source media="(max-width: 460px)" srcset="images/home/slide01.jpg">
+                            <img src="images/home/slide01.jpg" data-aos="fade-down" class="" alt="Slide01">
+                    </picture>
                     <div class="carousel-caption">
                         <div class="row">
                             <div class="col-lg-6 offset-lg-4 padding_slider" data-aos="fade-up">
@@ -151,7 +156,7 @@
             <div class="titulo_secao text-center">
                 <h2 data-aos="fade-up">Soluções</h2>
             </div>
-            <div class="row">
+            <div class="row solucoes_slider">
                 <div class="col-lg-3 col-md-6 padding_solucoes">
                     <div class="cada_solucao">
                         <div class="imagem_solucao">
@@ -431,8 +436,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="js/custom.js"></script>
 </body>
 

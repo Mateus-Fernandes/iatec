@@ -26,16 +26,16 @@ $(".dropdown-mobile").click(function()
     dots: false,
     responsive: [
       {
-        breakpoint: 480,
+        breakpoint: 900,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 5,
           slidesToScroll: 1
         }
       },
       {
-        breakpoint: 900,
+        breakpoint: 480,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 2,
           slidesToScroll: 1
         }
       },
@@ -79,6 +79,18 @@ $(".dropdown-mobile").click(function()
   });
 
   $('.listagem_time').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    mobileFirst: true,
+    responsive: [
+          {
+                  breakpoint: 700,
+                  settings: 'unslick'
+          }
+    ]
+  });
+
+  $('.solucoes_slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     mobileFirst: true,
