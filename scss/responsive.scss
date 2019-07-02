@@ -307,7 +307,12 @@
         h2 {
             font-size: 25px;
             text-align: center;
+            margin-right: 0;
         }
+    }
+    a.mobile_contato {
+        display: block;
+        color: #1188c9;
     }
     .botoes_contato a:first-of-type {
         margin-right: 0;
@@ -318,7 +323,9 @@
     }
 
     // BLOG
-
+    .mobile_categorias {
+        display: block;
+    }
     .listagem_posts .cada_post p {
         padding-right: 0
     }

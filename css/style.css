@@ -240,3 +240,9 @@ ul.dropdown-mobile_ul { display: none; background: #1185c4; padding-left: 25px; 
 .search-wrapper input { background: transparent; border: 0; color: #2c73b9; outline: none; height: 28px; width: 0; overflow: hidden; font-weight: 500; font-size: 15px; padding-left: 21px; -webkit-transform: scale(0); transform: scale(0); -webkit-transform-origin: 0 50%; transform-origin: 0 50%; transition: 275ms ease; }
 
 .search-wrapper input::placeholder { color: #2c73b9; font-weight: 500; }
+
+a.mobile_contato { display: none; color: #1188c9; }
+
+.mobile_categorias { display: none; margin-top: 26px; }
+
+.mobile_categorias .btn { background: #28aace !important; border: 0; text-transform: uppercase; letter-spacing: 0.05em; padding-left: 25px; padding-right: 25px; }

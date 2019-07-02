@@ -80,9 +80,11 @@
   .mapa_contato .envie_mensagem h2 { padding-top: 10px; }
   .como_ajudar { height: 135px; }
   .como_ajudar .container { flex-wrap: wrap; text-align: center; }
-  .como_ajudar .container h2 { font-size: 25px; text-align: center; }
+  .como_ajudar .container h2 { font-size: 25px; text-align: center; margin-right: 0; }
+  a.mobile_contato { display: block; color: #1188c9; }
   .botoes_contato a:first-of-type { margin-right: 0; margin-bottom: 16px; }
   .botoes_contato .container { flex-wrap: wrap; }
+  .mobile_categorias { display: block; }
   .listagem_posts .cada_post p { padding-right: 0; }
   .cada_comentario { flex-wrap: wrap; justify-content: center; }
   .listagem_posts .comentarios .texto_comentario { margin-left: 0; margin-top: 20px; }

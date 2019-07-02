@@ -718,3 +718,19 @@ a.botao, button.botao{
     font-weight: 500;
   }
   
+  a.mobile_contato {
+    display: none;
+    color: #1188c9;
+}
+.mobile_categorias {
+    display: none;
+    margin-top: 26px;
+    .btn {
+        background: #28aace !important;
+    border: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding-left: 25px;
+    padding-right: 25px;
+    }
+}
