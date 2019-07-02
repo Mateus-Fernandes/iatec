@@ -33,7 +33,6 @@
             left: 0;
             z-index: 1;
             width: 100%;
-            padding-left: 27px;
             h3{
                 font-size: 20px;
                 color: #FFF;
@@ -68,7 +67,7 @@
         }
         .botao_solucao{
             position: absolute;
-            bottom: 22px;
+            top: 17px;
             right: 15px;
             z-index: 2;
             .i_dropdown{
@@ -85,9 +84,9 @@
                 padding-left: 15px;
                 padding-bottom: 15px;
                 display: none;
-                top: 32px;
-                right: -15px;
-                width: 262px;
+                top: 19px;
+                right: -87px;
+                width: 200px;
                 .drop_item{
                     margin-bottom: 10px;
                     h4{

@@ -22,6 +22,9 @@ header {
 }
 a, button, i {
     transition: all .4s;
+    &:hover {
+        text-decoration: none;
+    }
 }
 .sprite{
     background: url(../images/assets/sprite.png) no-repeat;
@@ -49,14 +52,24 @@ header{
             padding: 4px 12px;
             border: 2px solid #c6cdd5;
             margin-right: 40px;
+            &:hover {
+                color: #07274c;
+                border-color:#07274c;
+            }
         }
         a.telefone_header {
             color: #07274c;
             font-weight: 600;
             margin-right: 43px;
+            &:hover {
+                color: #2c73b9;
+            }
         }
         a.blog_header{
             margin-right: 39px;
+            &:hover {
+                color: #07274c;
+            }
         }
         i.icone_suporte{
             width: 18px;
@@ -304,6 +317,9 @@ a.botao, button.botao{
                     line-height: 12px;
                     padding-left: 0;
                     padding-right: 0;
+                    &:hover {
+                        color: #28aace;
+                    }
                 }
             }
             .dropdown-toggle::after {
@@ -324,7 +340,7 @@ a.botao, button.botao{
             background: #122b55;
             color: #FFF;
             &:hover {
-                background: #28aace;
+                background: #24538d;
             }
         }          
         i.icone_suporte{
@@ -374,6 +390,9 @@ a.botao, button.botao{
             font-weight: 600;
             margin-right: 20px;
             font-size: 14px;
+            &:hover {
+                color: #122b55;
+            }
         }  
         i.icone_telefone{
             width: 18px;
@@ -391,26 +410,38 @@ a.botao, button.botao{
                         margin-right: 0;
                     }
                 }  
-            }
+            }      
             i.facebook_f{
                 width: 20px;
                 height: 19px;
                 background-position: -248px -42px;
+                &:hover {
+                    background-position: -248px -21px;
+                }
             }
             i.instagram_f{
                 width: 21px;
                 height: 19px;
                 background-position: -270px -42px;
+                &:hover {
+                    background-position: -270px -21px;
+                }
             }
             i.twitter_f{
                 width: 21px;
                 height: 19px;
                 background-position: -293px -42px;
+                &:hover {
+                    background-position: -293px -21px;
+                }
             }
             i.linkedin_f{
                 width: 20px;
                 height: 19px;
                 background-position: -316px -42px;
+                &:hover {
+                    background-position: -316px -21px;
+                }
             }              
         }              
       }
@@ -633,3 +664,57 @@ a.botao, button.botao{
         content: none;
     }
 }
+
+
+/* search topo */
+.search-wrapper {
+    position: relative;
+    background: transparent;
+    border-radius: 0;
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    width: 34px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 250ms ease;
+  }
+  
+  .search-wrapper.focused {
+    width: 240px;
+    border-radius: 0;
+    background: #c6cdd5;
+    padding-right: 6px;
+}
+  
+  .search-wrapper.focused input {
+    padding: 0 28px 0 8px;
+    width: 100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .search-wrapper input {
+    background: transparent;
+    border: 0;
+    color: #2c73b9;
+    outline: none;
+    height: 28px;
+    width: 0;
+    overflow: hidden;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 21px;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    transition: 275ms ease;
+  }
+  
+  .search-wrapper input::placeholder {
+    color: #2c73b9;
+    font-weight: 500;
+  }
+  

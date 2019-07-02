@@ -211,6 +211,22 @@
         color: #29aed3;
         margin-bottom: 20px;
     }
+    .botao_contato_cases {
+        background: #29aed3;
+        color: #FFF;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 51%;
+        font-weight: 500;
+        font-size: 13px;
+        &:hover {
+            background: #053870;
+        }
+    }
     button.close {
         top: 3px;
         position: absolute;

@@ -42,7 +42,7 @@ $(".dropdown-mobile").click(function()
     ]
   });
 
-  $('.diferenciais_lista').slick({
+  $('.exclusivo > .container').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     mobileFirst: true,
@@ -138,3 +138,17 @@ $('.carousel_slick').slick({
 });
 
 AOS.init();
+
+// Search -- Topo
+
+var searchWrapper = document.querySelector('.search-wrapper'),
+searchInput = document.querySelector('.search-input');
+
+document.addEventListener('click', function (e) {
+  if (~e.target.className.indexOf('search')) {
+    searchWrapper.classList.add('focused');
+    searchInput.focus();
+  } else {
+    searchWrapper.classList.remove('focused');
+  }
+});

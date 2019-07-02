@@ -10,7 +10,7 @@
 
 .voce_precisa .cada_solucao .imagem_solucao img { mix-blend-mode: multiply; max-width: 100%; }
 
-.voce_precisa .cada_solucao .titulo_solucao { position: absolute; bottom: 14px; left: 0; z-index: 1; width: 100%; padding-left: 27px; }
+.voce_precisa .cada_solucao .titulo_solucao { position: absolute; bottom: 14px; left: 0; z-index: 1; width: 100%; }
 
 .voce_precisa .cada_solucao .titulo_solucao h3 { font-size: 20px; color: #FFF; line-height: 20px; font-weight: normal; margin-bottom: 0; text-align: left; }
 
@@ -24,11 +24,11 @@
 
 .voce_precisa .cada_solucao .titulo_solucao i.i_saude { width: 32px; height: 32px; background-position: -213px -1px; }
 
-.voce_precisa .cada_solucao .botao_solucao { position: absolute; bottom: 22px; right: 15px; z-index: 2; }
+.voce_precisa .cada_solucao .botao_solucao { position: absolute; top: 17px; right: 15px; z-index: 2; }
 
 .voce_precisa .cada_solucao .botao_solucao .i_dropdown { background-position: -86px 0; width: 17px; height: 10px; cursor: pointer; }
 
-.voce_precisa .cada_solucao .botao_solucao .solucao_dropdown { position: absolute; z-index: 4; background: #394149e0; padding-top: 20px; padding-left: 15px; padding-bottom: 15px; display: none; top: 32px; right: -15px; width: 262px; }
+.voce_precisa .cada_solucao .botao_solucao .solucao_dropdown { position: absolute; z-index: 4; background: #394149e0; padding-top: 20px; padding-left: 15px; padding-bottom: 15px; display: none; top: 19px; right: -87px; width: 200px; }
 
 .voce_precisa .cada_solucao .botao_solucao .solucao_dropdown .drop_item { margin-bottom: 10px; }
 

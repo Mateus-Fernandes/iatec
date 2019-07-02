@@ -713,20 +713,14 @@ a.accordion-toggle[aria-expanded="false"], a.accordion-toggle{
     }
 }
 .modal {
-    background: #16366aab;
-    .modal-content {
-        background: #16366a;
-        border: 0;
-        border-radius: 0;
-    }
     .close {
-        color: #FFF;
+        color: #29aed3;
     }
     .modal-body {
         padding: 0 100px;
         padding-bottom: 53px;
         h3 {
-            color: #FFF;
+            color: #29aed3;
             font-size: 30px;
             font-weight: 400;
             text-align: center;
@@ -760,6 +754,9 @@ a.accordion-toggle[aria-expanded="false"], a.accordion-toggle{
             text-transform: uppercase;
             border: 0;
             background: #ffaf00;
+            &:hover {
+                background: #29aed3;
+            }
         }
     }
 }

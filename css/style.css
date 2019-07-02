@@ -9,6 +9,8 @@ header { background: #FFF; position: sticky; top: 0; z-index: 1000; }
 
 a, button, i { transition: all .4s; }
 
+a:hover, button:hover, i:hover { text-decoration: none; }
+
 .sprite { background: url(../images/assets/sprite.png) no-repeat; display: block; }
 
 header { background: #FFF; }
@@ -21,9 +23,15 @@ header .header_top a { color: #2c73b9; }
 
 header .header_top a.suporte_btn { padding: 4px 12px; border: 2px solid #c6cdd5; margin-right: 40px; }
 
+header .header_top a.suporte_btn:hover { color: #07274c; border-color: #07274c; }
+
 header .header_top a.telefone_header { color: #07274c; font-weight: 600; margin-right: 43px; }
 
+header .header_top a.telefone_header:hover { color: #2c73b9; }
+
 header .header_top a.blog_header { margin-right: 39px; }
+
+header .header_top a.blog_header:hover { color: #07274c; }
 
 header .header_top i.icone_suporte { width: 18px; height: 18px; background-position: 0 0; margin-right: 7px; }
 
@@ -108,11 +116,13 @@ footer .info_footer .navbar-light { padding: 0; }
 
 footer .info_footer .navbar-light .nav-item .nav-link { font-size: 14px; color: #FFF; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; padding-top: 8px; padding-bottom: 8px; position: relative; margin-left: 14px; margin-right: 14px; line-height: 12px; padding-left: 0; padding-right: 0; }
 
+footer .info_footer .navbar-light .nav-item .nav-link:hover { color: #28aace; }
+
 footer .info_footer .navbar-light .dropdown-toggle::after { display: inline-block; margin-left: .255em; vertical-align: .255em; content: ""; background-image: url(../images/assets/sprite.png); width: 11px; height: 7px; background-position: -39px -2px; background-repeat: no-repeat; border: none; }
 
 footer .info_footer a.suporte_btn { padding: 8px 25px; background: #122b55; color: #FFF; }
 
-footer .info_footer a.suporte_btn:hover { background: #28aace; }
+footer .info_footer a.suporte_btn:hover { background: #24538d; }
 
 footer .info_footer i.icone_suporte { width: 18px; height: 18px; background-position: 0 -18px; margin-right: 7px; }
 
@@ -130,6 +140,8 @@ footer .bottom_footer .logo_red img { width: 41px; }
 
 footer .bottom_footer a.telefone_header { color: #FFF; font-weight: 600; margin-right: 20px; font-size: 14px; }
 
+footer .bottom_footer a.telefone_header:hover { color: #122b55; }
+
 footer .bottom_footer i.icone_telefone { width: 18px; height: 17px; background-position: -19px -1px; margin-right: 7px; }
 
 footer .bottom_footer .social_footer i { margin-right: 3px; }
@@ -138,11 +150,19 @@ footer .bottom_footer .social_footer a:last-child i { margin-right: 0; }
 
 footer .bottom_footer .social_footer i.facebook_f { width: 20px; height: 19px; background-position: -248px -42px; }
 
+footer .bottom_footer .social_footer i.facebook_f:hover { background-position: -248px -21px; }
+
 footer .bottom_footer .social_footer i.instagram_f { width: 21px; height: 19px; background-position: -270px -42px; }
+
+footer .bottom_footer .social_footer i.instagram_f:hover { background-position: -270px -21px; }
 
 footer .bottom_footer .social_footer i.twitter_f { width: 21px; height: 19px; background-position: -293px -42px; }
 
+footer .bottom_footer .social_footer i.twitter_f:hover { background-position: -293px -21px; }
+
 footer .bottom_footer .social_footer i.linkedin_f { width: 20px; height: 19px; background-position: -316px -42px; }
+
+footer .bottom_footer .social_footer i.linkedin_f:hover { background-position: -316px -21px; }
 
 .hamburger { position: absolute; display: block; top: 62px; cursor: pointer; z-index: 99999999; padding: 10px 15px 5px; right: 14px; }
 
@@ -209,3 +229,14 @@ ul.dropdown-mobile_ul { display: none; background: #1185c4; padding-left: 25px; 
 .slick-next:hover { background-position: -71px -74px; }
 
 .slick-next:before { content: none; }
+
+/* search topo */
+.search-wrapper { position: relative; background: transparent; border-radius: 0; -webkit-transform-origin: 100% 50%; transform-origin: 100% 50%; width: 34px; height: 33px; display: flex; align-items: center; cursor: pointer; transition: 250ms ease; }
+
+.search-wrapper.focused { width: 240px; border-radius: 0; background: #c6cdd5; padding-right: 6px; }
+
+.search-wrapper.focused input { padding: 0 28px 0 8px; width: 100%; -webkit-transform: scale(1); transform: scale(1); }
+
+.search-wrapper input { background: transparent; border: 0; color: #2c73b9; outline: none; height: 28px; width: 0; overflow: hidden; font-weight: 500; font-size: 15px; padding-left: 21px; -webkit-transform: scale(0); transform: scale(0); -webkit-transform-origin: 0 50%; transform-origin: 0 50%; transition: 275ms ease; }
+
+.search-wrapper input::placeholder { color: #2c73b9; font-weight: 500; }
