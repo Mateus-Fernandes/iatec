@@ -299,11 +299,11 @@ a.accordion-toggle[aria-expanded="false"], a.accordion-toggle{
         position: relative;
         &:after {
             content: '';
-            background: url('../images/assets/sprite.png') no-repeat -56px -48px #FFF;
+            background: url(../images/assets/sprite.png) no-repeat -56px -48px transparent;
             width: 14px;
             height: 9px;
             position: absolute;
-            right: 21px;
+            right: 22px;
             top: 13px;
             z-index: 99;
         }

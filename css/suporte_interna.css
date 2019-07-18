@@ -89,7 +89,7 @@ a.accordion-toggle[aria-expanded="false"] .up, a.accordion-toggle .up { backgrou
 
 .chamado_online .caixa_select { position: relative; }
 
-.chamado_online .caixa_select:after { content: ''; background: url("../images/assets/sprite.png") no-repeat -56px -48px #FFF; width: 14px; height: 9px; position: absolute; right: 21px; top: 13px; z-index: 99; }
+.chamado_online .caixa_select:after { content: ''; background: url(../images/assets/sprite.png) no-repeat -56px -48px transparent; width: 14px; height: 9px; position: absolute; right: 22px; top: 13px; z-index: 99; }
 
 .chamado_online button { width: 219px; height: 35px; display: flex; align-items: center; font-size: 13px; font-weight: bold; letter-spacing: 0.05em; color: #FFF; background: #2cadd0; justify-content: center; border: 0; text-transform: uppercase; }
 

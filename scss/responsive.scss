@@ -100,6 +100,8 @@
     .conheca_plano .cada_plano {
         margin: 0 auto;
         margin-bottom: 15px;
+        width: 90%;
+        display: flex;
     }
     .conheca_plano .cada_plano:nth-child(3n) {
         margin-right: 0;
@@ -127,6 +129,13 @@
         margin: 0 38px;
     }
 
+    // Select
+    .caixa_select:after {
+        display: none;
+    }
+    .modal .botao_contato_cases {
+        width: 90%;
+    }
     // Apresentacao
 
     .desc_apresentacao p {
@@ -143,15 +152,15 @@
         left: 34px;
     }
     .slick-slide:nth-child(n+3):nth-child(-n+15) .abrir_linha {
-        margin-left: -210px;
+        margin-left: -210px !important;
         &:before {
-            left: 246px;
+            left: 246px !important;
         }
     }
     .slick-slide:nth-child(2) .abrir_linha {
-        margin-left: -103px;
+        margin-left: -103px !important;
         &:before {
-            left: 140px;
+            left: 140px !important;
         }
     }
 
@@ -469,6 +478,7 @@
     }
     .conheca_plano .cada_plano {
         margin-right: 9px;
+        
     }
     .conheca_plano .cada_plano:nth-child(3n) {
         margin-right: 9px;
